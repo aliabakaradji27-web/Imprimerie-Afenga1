@@ -125,7 +125,7 @@ function checkout() {
 
   Pi.createPayment({
     amount: total,
-    memo: "ALIMENTATION AF Order",
+    memo: "IMPRIMERIE AFENGA Order",
     metadata: cart
   }, {
     onReadyForServerApproval: (paymentId) => {
